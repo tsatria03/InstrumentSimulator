@@ -1,0 +1,3 @@
+new in 1.0
+Fixed various sound pool issues.
+Added several sounds for interacting with this app. You'll now here them when Cycling through instrument categories, Cycling through instrument types, toggling the overlap pedal on and off, and toggling the sustain pedal on and off
