@@ -1,3 +1,4 @@
 new in 1.0
+Added the ability to record your performances. You can press alt R to record, alt enter to stop recording, and alt P to play back the recorded audio.
 Fixed various sound pool issues.
-Added several sounds for interacting with this app. You'll now here them when Cycling through instrument categories, Cycling through instrument types, toggling the overlap pedal on and off, and toggling the sustain pedal on and off
+Added several sounds for interacting with this app. You'll now here them when Cycling through instrument categories, Cycling through instrument types, toggling the overlap pedal on and off, and toggling the sustain pedal on and off.
