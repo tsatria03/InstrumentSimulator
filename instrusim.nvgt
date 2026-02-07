@@ -1,4 +1,11 @@
 #include"includes/includes.nvgt"
+void main()
+{
+show_game_window("instrument simulator");
+wait(500);
+speak("Instrument simulator. Press letters and numbers to play chords, melodies, and drums on the keyboard. Press the Tab key to cycle through the instrument categories. Press Left and Right arrow keys to cycle through the instrument types. Hold Up or Down arrow keys to utilize the pitch modulator. Press the Enter key to enable or disable the overlapping pettle for the current instrument you're playing. Press the Backslash key to enable or disable the sustaining pettle for the current instrument you're playing. Press the Escape key to exit.");
+instplay();
+}
 void setupmenu()
 {
 m.reset();
@@ -8,50 +15,4 @@ m.reset();
     m.enable_wrapping = true;
     m.enable_first_letter_navigation = true;
     m.speak_position = true;
-}
-void main()
-{
-show_game_window("instrument simulator");
-wait(500);
-speak("Instrument simulator. Press letters and numbers to play chords, melodies, and drums on the keyboard. Press the Tab key to cycle through the instrument categories. Press Left and Right arrow keys to cycle through the instrument types. Hold Up or Down arrow keys to utilize the pitch modulator. Press the Enter key to enable or disable the overlapping pettle for the current instrument you're playing. Press the Backslash key to enable or disable the sustaining pettle for the current instrument you're playing. Press the Escape key to exit.");
-instplay();
-}
-void set_inst_keys(int key1,int key2,int key3,int key4,int key5,int key6,int key7,int key8,int key9,int key10,int key11,int key12,int key13,int key14,int key15,int key16,int key17,int key18,int key19, int key20,int key21,int key22,int key23,int key24,int key25,int key26,int key27,int key28,int key29,int key30,int key31,int key32,int key33,int key34,int key35,int key36)
-{
-keycheck1=key1;
-keycheck2=key2;
-keycheck3=key3;
-keycheck4=key4;
-keycheck5=key5;
-keycheck6=key6;
-keycheck7=key7;
-keycheck8=key8;
-keycheck9=key9;
-keycheck10=key10;
-keycheck11=key11;
-keycheck12=key12;
-keycheck13=key13;
-keycheck14=key14;
-keycheck15=key15;
-keycheck16=key16;
-keycheck17=key17;
-keycheck18=key18;
-keycheck19=key19;
-keycheck20=key20;
-keycheck21=key21;
-keycheck22=key22;
-keycheck23=key23;
-keycheck24=key24;
-keycheck25=key25;
-keycheck26=key26;
-keycheck27=key27;
-keycheck28=key28;
-keycheck29=key29;
-keycheck30=key30;
-keycheck31=key31;
-keycheck32=key32;
-keycheck33=key33;
-keycheck34=key34;
-keycheck35=key35;
-keycheck36=key36;
 }

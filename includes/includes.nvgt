@@ -8,11 +8,9 @@
 #include"recorder.nvgt"
 #include"sound_pool.nvgt"
 
-double drumsvolume=0, drumsmaxvolume=120, drumspan=0, drumsmaxpan=100, drumspitch=100, drumsmaxpitch=200;
-double pianosvolume=0, pianosmaxvolume=120, pianospan=0, pianosmaxpan=100, pianospitch=100, pianosmaxpitch=200;
+double drumsvolume=0, drumsmaxvolume=120, drumspan=0, drumsmaxpan=100, drumspitch=100, drumsmaxpitch=200, pianosvolume=0, pianosmaxvolume=120, pianospan=0, pianosmaxpan=100, pianospitch=100, pianosmaxpitch=200;
 int pianoslot, drumslot;
 int instcad=1, overlap=0, pitchable=1, pitchtime=50, staccato=0;
-int keycheck1=KEY_1, keycheck2=KEY_2, keycheck3=KEY_3, keycheck4=KEY_4, keycheck5=KEY_5, keycheck6=KEY_6, keycheck7=KEY_7, keycheck8=KEY_8, keycheck9=KEY_9, keycheck10=KEY_0, keycheck11=KEY_Q, keycheck12=KEY_W, keycheck13=KEY_E, keycheck14=KEY_R, keycheck15=KEY_T, keycheck16=KEY_Y, keycheck17=KEY_U, keycheck18=KEY_I, keycheck19=KEY_O, keycheck20=KEY_P, keycheck21=KEY_A, keycheck22=KEY_S, keycheck23=KEY_D, keycheck24=KEY_F, keycheck25=KEY_G, keycheck26=KEY_H, keycheck27=KEY_J, keycheck28=KEY_K, keycheck29=KEY_L, keycheck30=KEY_Z, keycheck31=KEY_X, keycheck32=KEY_C, keycheck33=KEY_V, keycheck34=KEY_B, keycheck35=KEY_N, keycheck36=KEY_M;
 string piano="classical grand";
 string drum="acoustic";
 timer pitchtimer;

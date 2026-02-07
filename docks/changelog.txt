@@ -1,4 +1,5 @@
 new in 1.0
+Changed the file name structure for all of the instruments.
 Added the ability to record your performances. You can press alt R to record, alt enter to stop recording, and alt P to play back the recorded audio. You can also press alt L to load a recording, and alt S to save the recorded audio to a rec file.
 Fixed various sound pool issues.
 Added several sounds for interacting with this app. You'll now here them when Cycling through instrument categories, Cycling through instrument types, toggling the overlap pedal on and off, and toggling the sustain pedal on and off.
