@@ -107,7 +107,7 @@ if (is_playing() && (key_pressed(KEY_RETURN) || key_pressed(KEY_R)))
         }
         if (!directory_exists(recordings_dir))
             directory_create(recordings_dir);
-        string fn = input_box("game recorder", "please type a name for this recording");
+        string fn = input_box("app recorder", "please type a name for this recording");
         if (fn == "")
             return;
         file savefile;
